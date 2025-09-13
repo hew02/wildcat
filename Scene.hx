@@ -21,7 +21,7 @@ abstract class Scene extends h2d.Scene {
     /**
      * Specific update function for given scene.
      */
-    public abstract function update() : Void;
+    public abstract function update(dt:Float) : Void;
 
     /**
      * For event mapping.
